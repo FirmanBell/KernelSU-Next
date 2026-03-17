@@ -10,7 +10,7 @@ $(info -- KDIR: $(KDIR))
 $(info -- MDIR: $(MDIR))
 
 # compliant to last upstream kernel change as of 35d8162
-KSU_VERSION := 33059
+KSU_VERSION := 33068
 KSU_VERSION_TAG := v3.1.0
 
 ccflags-y += -DKSU_VERSION=$(KSU_VERSION)
